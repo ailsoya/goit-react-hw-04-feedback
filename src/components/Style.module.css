@@ -1,0 +1,44 @@
+.Section {
+    margin: 12px 40px;
+}
+
+.Section h2 {
+    font-weight: 500;
+}
+
+.OptionList {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.OptionList li button{
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
+    border: 2px rgba(137, 137, 137, 0.366) solid;
+    border-radius: 5px;
+    padding: 3px 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.OptionList li button:hover{
+    background-color: rgb(82, 154, 255);
+    color: white;
+    border: 2px rgb(82, 154, 255) solid;
+    outline: none;
+}
+
+.StatList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.StatList li {
+    font-size: 18px;
+}
